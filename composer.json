@@ -1,0 +1,35 @@
+{
+  "name": "voskobovich/yii2-sluggable-behavior",
+  "description": "Adds transliteration slugs to the standard solution from Yii2",
+  "keywords": [
+    "behavior",
+    "yii2",
+    "sluggable",
+    "slug"
+  ],
+  "homepage": "https://github.com/voskobovich/yii2-sluggable-behavior",
+  "type": "yii2-behavior",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/voskobovich/yii2-sluggable-behavior/issues",
+    "source": "https://github.com/voskobovich/yii2-sluggable-behavior"
+  },
+  "authors": [
+    {
+      "name": "Vitaly Voskobovich",
+      "email": "vitaly@voskobovich.com",
+      "homepage": "http://voskobovich.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*",
+    "zelenin/yii2-slug-behavior": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "voskobovich\\behaviors\\": ""
+    }
+  }
+}
